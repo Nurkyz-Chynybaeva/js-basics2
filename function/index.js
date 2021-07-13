@@ -90,21 +90,34 @@
 //     i++;
 // }
 
-function printLine(text){
-  document.write("<br>" + text);
-}
-printCount(10); 
-printCount(5); 
-printCount(1); 
+// function printLine(text){
+//   document.write("<br>" + text);
+// }
 
-function printCount (a){
-    let i = 1;
-while (i <= a) {
-    printLine (i);
-    i++;
-}}
+// printCount(10);                                           //-------
+// printCount(5); 
+// printCount(1); 
 
+// function printCount (a){
+//     let i = 1;
+// while (i <= a) {
+//     printLine (i);
+//     i++;
+// }}
 
+// printMax(10, 6);
+// printMax(-5, -3);
+// printMax(15, 9);
+// printMax(15, 15);                                        // max value
+
+// function printMax (a, b){
+//     if(a < b) {
+//         printLine(b);
+//     }
+//     else {
+//         printLine(a)
+//     }
+// }
 
 
 
