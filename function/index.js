@@ -82,13 +82,30 @@
 // }
 
 
-let i = 1;
-while (i <= 20){
-    if (i % 2 == 1){
-        document.write(i + "<br>");
-    }
-    i++;
+// let i = 1;
+// while (i <= 20){
+//     if (i % 2 == 1){
+//         document.write(i + "<br>");
+//     }
+//     i++;
+// }
+
+function printLine(text){
+  document.write("<br>" + text);
 }
+printCount(10); 
+printCount(5); 
+printCount(1); 
+
+function printCount (a){
+    let i = 1;
+while (i <= a) {
+    printLine (i);
+    i++;
+}}
+
+
+
 
 
 
