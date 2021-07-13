@@ -65,22 +65,30 @@
 // console.log(logWithLastName('NurKyz'))
 // console.log(logWithLastName('Kunduz'))
 
-let x = '1'
-switch(x){
-  case '1' : alert('this is 1')
-    break
-  case '2' : alert('this is 2')
-    break
-  case '3' : alert('this is 3')
-    break
-  case '4' : alert('this is 4')
-    break
-  case '5' : alert('this is 5')
-    break
+// let x = '1'
+// switch(x){
+//   case '1' : alert('this is 1')
+//     break
+//   case '2' : alert('this is 2')
+//     break
+//   case '3' : alert('this is 3')
+//     break
+//   case '4' : alert('this is 4')
+//     break
+//   case '5' : alert('this is 5')
+//     break
 
-    default: alert('Совпадений не было')
+//     default: alert('Совпадений не было')
+// }
+
+
+let i = 1;
+while (i <= 20){
+    if (i % 2 == 1){
+        document.write(i + "<br>");
+    }
+    i++;
 }
-
 
 
 
